@@ -21,7 +21,7 @@ DATALOADER:
   SIZE_DIVISIBILITY: 32
 DATASETS:
   TRAIN: ("cityscapes_fine_instanceonly_seg_train_cocostyle",)
-  SOURCE_TRAIN: ("foggy_cityscapes_fine_instanceonly_seg_train_cocostyle",)
+  SOURCE_TRAIN: ("cityscapes_fine_instanceonly_seg_train_cocostyle",)
   TARGET_TRAIN: ("foggy_cityscapes_fine_instanceonly_seg_train_cocostyle",)
   TEST: ("foggy_cityscapes_fine_instanceonly_seg_val_cocostyle",)
 INPUT:
